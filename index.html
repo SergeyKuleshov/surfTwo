@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,400,700,800|Roboto:400,700,900,900i&amp;subset=cyrillic" rel="stylesheet">
+	<script src="js/script.js"></script>
+	<script src="jQuery/jquery-3.3.1.js"></script>
+	<script>
+		$(document).ready(function() {
+			console.log('трям, здравствуйте');
+
+			$('.testHide').hide();
+			$('.testClick').on('click', function() {
+				$(this).next().slideToggle(500);
+			});
+		});
+
+	</script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="slider clearfix">
+			<header class="main-header clearfix">
+				<a href="index.html">
+                <img src="img/Logo.png" alt="" class="logo">
+            </a>
+
+				<div class="soc-icon">
+					<a href="#" class="soc-icon-facebook">
+						<span>facebook</span><img src="/img/socIcon/facebook-icon.png" alt="">
+					</a>
+					<a href="#" class="soc-icon-twiter">
+						<span>twiter</span><img src="/img/socIcon/twitter-icon.png" alt="">
+					</a>
+					<a href="#" class="soc-icon-pinterest">
+						<span>pinterest</span><img src="/img/socIcon/pinterest-icon.png" alt="">
+					</a>
+					<a href="#" class="soc-icon-youTube">
+						<span>you-tube</span><img src="/img/socIcon/youtube-icon.png" alt="">
+					</a>
+					<a href="#" class="soc-icon-instagramm">
+						<span>instagram</span><img src="/img/socIcon/insta-icon.png" alt="">
+					</a>
+				</div>
+			</header>
+
+			<div class="block-welcome">
+				<h3 class="testClick">welcome to surfhouse</h3>
+				<p class="testHide">The only online store you will ever need for all your windsurfing and kitesurf-ing and SUP needs</p>
+			</div>
+			<div class="blurb">
+				<!--рекламный блок-->
+				<h3>JP Funride 2014</h3>
+				<p>Super easy going freeride boards based on the X-Cite Ride shape concept with additional control and super easy jibing.</p>
+				<button>buy now</button>
+			</div>
+		</div>
+		<main class="clearfix">
+			<div class="sidebar clearfix">
+				<nav class="nav">
+					<ul class="menu">
+						<li><span>menu</span></li>
+						<li><a href=""><span>about</span></a></li>
+						<li><a href=""><span>apparel</span></a></li>
+						<li><a href=""><span>surf apparel</span></a></li>
+						<li><a href=""><span>windsurf</span></a>
+							<ul>
+								<li><a href="#"><span>lorem</span></a></li>
+								<li><a href="#"><span>lorem</span></a></li>
+								<li><a href="#"><span>lorem</span></a></li>
+								<li><a href="#"><span>lorem</span></a></li>
+							</ul>
+						</li>
+						<li><a href=""><span>kitesurf</span></a></li>
+						<li><a href=""><span>accessories</span></a></li>
+						<li><a href=""><span>sale</span></a></li>
+						<li><a href=""><span>brands</span></a></li>
+						<li><a href=""><span>blog</span></a></li>
+						<li><a href=""><span>gadgest</span></a></li>
+						<li><a href=""><span>contacts</span></a></li>
+					</ul>
+				</nav>
+				<div class="banner">
+					<p>now<br>is<br>open</p>
+				</div>
+			</div>
+
+			<div class="content clearfix">
+
+				<div class="new-products">
+					<h3>new products</h3>
+					<div class="containerForCards">
+						<div class="cardProducts">
+							<img src="/img/test12.jpg" alt="">
+							<p>single thruster 2014</p>
+							<p>$.865.00</p>
+						</div>
+						<div class="cardProducts">
+							<img src="/img/Test.jpg" alt="">
+							<p>freestyle wave fsw</p>
+							<p>$.770.50</p>
+						</div>
+						<div class="cardProducts">
+							<img src="/img/test11.jpg" alt="">
+							<p>the white collection<br>surfboard 2014</p>
+							<p>$.1,580.70</p>
+						</div>
+						<div class="cardProducts">
+							<img src="/img/test13.jpg" alt="">
+							<p>og scallop solid</p>
+							<p>$.765.00</p>
+						</div>
+						<div class="cardProducts">
+							<img src="/img/test4.jpg" alt="">
+							<p>stripe 19 qs</p>
+							<p>$.230.50</p>
+						</div>
+						<div class="cardProducts">
+							<img src="/img/test14.jpg" alt="">
+							<p>yoke 19 qs</p>
+							<p>$.1,130.70</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="top-products">
+					<h3>top products</h3>
+					<div class="containerForCards">
+						<div class="cardProducts">
+							<img src="/img/test7.jpg" alt="">
+							<p>ushingham<br>lightning 2014</p>
+							<p>$.2,960.95<br><span>$.3,100.15</span></p>
+						</div>
+						<div class="cardProducts">
+							<img src="/img/test5.jpg" alt="">
+							<p>cypher heat ves m</p>
+							<p>$.849.95</p>
+						</div>
+						<div class="cardProducts">
+							<img src="/img/test8.jpg" alt="">
+							<p>syncro womens<br>qs m</p>
+							<p>$.1,110.99</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="sale-products">
+					<h3>sale products</h3>
+					<div class="containerForCards">
+						<div class="cardProducts">
+							<img src="/img/test16.jpg" alt="">
+							<p>syncro mens qs m</p>
+							<p>$.249.95<br><span>$.450.15</span></p>
+						</div>
+						<div class="cardProducts">
+							<img src="/img/test10.jpg" alt="">
+							<p>ramos - shirt for<br>men</p>
+							<p>$.459.65<br><span>$.570.65</span></p>
+						</div>
+						<div class="cardProducts">
+							<img src="/img/test15.jpg" alt="">
+							<p>sixsixone evo wired<br>full face</p>
+							<p>$.240.00<br><span>$.370.65</span></p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+
+			<div class="brand-line">
+				<a href="">lorem</a>
+				<a href="">lorem</a>
+				<a href="">lorem</a>
+				<a href="">lorem</a>
+				<a href="">lorem</a>
+				<a href="">lorem</a>
+				<a href="">lorem</a>
+				<a href="">lorem</a>
+			</div>
+
+			<div class="insta-foto">
+				<a href="">
+                    <img src="img/insta-icon.png" alt="" >
+                    <p><span>instagram feed:</span> #surfhouse</p>
+                </a>
+				<div class="flex-container-foto">
+					<img src="img/Livello%2025.jpg" alt="">
+					<img src="img/Livello%2026.jpg" alt="">
+					<img src="img/Livello%2027.jpg" alt="">
+					<img src="img/Livello%2028.png" alt="">
+					<img src="img/Livello%2029.png" alt="">
+					<img src="img/Livello%2030.png" alt="">
+				</div>
+			</div>
+
+			<div class="soc-lower">
+				<!--ссылки на соцсети внизу страницы-->
+				<a href="#"><span>facebook</span><img src="/img/socIcon/facebookBig-icon.png" alt=""></a
+                ><a href="#"><span>twiter</span><img src="/img/socIcon/twiterBig-icon.png" alt=""></a
+                ><a href="#"><span>pinterest</span><img src="/img/socIcon/pinterestBig-icon.png" alt=""></a>
+			</div>
+		</main>
+
+		<footer class="main-footer">
+			<div class="flex-container-column">
+				<div class="columnOne">
+					<h4>category</h4>
+					<ul>
+						<li>Home</li>
+						<li>about us</li>
+						<li>eshop</li>
+						<li>Features</li>
+						<li>new collections</li>
+						<li>blog</li>
+						<li>contact</li>
+					</ul>
+				</div>
+				<div class="columnTwo">
+					<h4>Our Account</h4>
+					<ul>
+						<li>Personal information</li>
+						<li>Addresses</li>
+						<li>Discount</li>
+						<li>Orders history</li>
+						<li>Addresses</li>
+						<li>Search Terms</li>
+					</ul>
+				</div>
+				<div class="columnThree">
+					<h4>Our Support</h4>
+					<ul>
+						<li>Search Terms</li>
+						<li>Advanced Search</li>
+						<li>Mobile</li>
+						<li>Contact us</li>
+						<li>Mobile</li>
+						<li>Addresses</li>
+					</ul>
+				</div>
+				<div class="columnFour">
+					<h4>Newsletter</h4>
+					<p>Join thousands of other people sub-<br>scribe to our news</p>
+					<form action="">
+						<input type="email" name="email" id="email" placeholder="INSERT EMAIL">
+						<input type="submit" value="SUBMIT">
+					</form>
+					<div class="paymentSystemFlex">
+						<div class="paymentSystem paymentSystem1">
+							<a href="">
+								<img src="/img/paymentSystem/aex.png" alt="">
+							</a>
+						</div>
+						<div class="paymentSystem paymentSystem2">
+							<a href="">
+								<img src="/img/paymentSystem/mastercard.png" alt="">
+							</a>
+						</div>
+						<div class="paymentSystem paymentSystem3">
+							<a href="">
+								<img src="/img/paymentSystem/maestero.png" alt="">
+							</a>
+						</div>
+						<div class="paymentSystem paymentSystem4">
+							<a href="">
+								<img src="/img/paymentSystem/paypal.png" alt="">
+							</a>
+						</div>
+						<div class="paymentSystem paymentSystem5">
+							<a href="">
+								<img src="/img/paymentSystem/discover.png" alt="">
+							</a>
+						</div>
+						<div class="paymentSystem paymentSystem6">
+							<a href="">
+								<img src="/img/paymentSystem/visa-straight.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="columnFive">
+					<h4>About Us</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. Aliquid asperiores<br> aut doloribus eaque eligendi enim est,<br> eveniet facere fuga harum illo, illum<br> incidunt labore minus nihil numquam<br> perferendis quasi veritatis? Ea<br> exercitationem, labore numquam quis<br> ratione repudiandae.
+					</p>
+					<p>Phone: 1-999-342-9876</p>
+					<p>e-mail: <a href="">info@surfhouse.com</a></p>
+				</div>
+			</div>
+		</footer>
+		<footer class="under-footer">
+			<p>&copy 2014 <span>surfhouse all</span> rights reserved - <a href="#">designed by theuncreativelab.com</a></p>
+			<div class="soc-icon-footer">
+				<a href="#">
+					<span>facebook</span><img src="/img/socIconUnder-footer/footer-facebook.png" alt="">
+				</a
+				><a href="#">
+					<span>twiter</span><img src="/img/socIconUnder-footer/footer-twitter.png" alt="">
+				</a
+				><a href="#">
+					<span>pinterest</span><img src="/img/socIconUnder-footer/footer-pinterest.png" alt="">
+				</a
+				><a href="#">
+					<span>google plus</span><img src="/img/socIconUnder-footer/footer-google-plus.png" alt="">
+				</a
+				><a href="#">
+					<span>tumblr</span><img src="/img/socIconUnder-footer/footer-tumblr.png" alt="">
+				</a
+				><a href="#">
+					<span>instagram</span><img src="/img/socIconUnder-footer/footer-instagram.png" alt="">
+				</a
+				><a href="#">
+					<span>rss</span><img src="/img/socIconUnder-footer/footer-rss.png" alt="">
+				</a>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
